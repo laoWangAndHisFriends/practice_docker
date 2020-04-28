@@ -1,0 +1,19 @@
+host e.coding.net
+   IdentityFile ~/.ssh/wangkaixuan@bitdesk.com
+   Port 22
+   User git
+
+host 47.92.98.6
+   IdentityFile ~/.ssh/wangkaixuan@bitdesk.com
+   Port 22
+
+host wangkaixuan.com 106.12.35.15
+   IdentityFile ~/.ssh/2654189525@qq.com
+   Port 22
+   User iroan
+
+host github.com 106.12.35.15 192.168.1.16  wangkaixuan.com gitlab.wangkaixuan.com
+   IdentityFile ~/.ssh/2654189525@qq.com
+   Port 22
+   User git
+   
